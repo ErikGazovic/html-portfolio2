@@ -409,6 +409,12 @@ h4 {
 }
 
 @media (max-width: 500px) {
+    
+    .abt-me-container > div > img {
+        width: 190px;
+        height: 190px;
+    }
+
     .name > h1 {
         font-size: 3.7rem;
         width: 100%;
@@ -428,7 +434,6 @@ h4 {
     }
     .abt-me-container > .abt-me-box > h2 {
        font-size: 3rem;
-       border: 2px solid black;
        width: 100%;
     }
 
