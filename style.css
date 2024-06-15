@@ -404,4 +404,23 @@ h4 {
     }
 }
 
+@media (max-width: 500px) {
+    .name > h1 {
+        font-size: 4.7rem;
+        width: 100%;
+    }
+
+    .abt-me-container h2 {
+        font-size: 4.3rem;
+    }
+
+    .hobbies-container {
+        margin-top: 400px;
+    }
+
+    .footer-container {
+        margin-top: 180px;
+    }
+}
+
 
