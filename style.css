@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     height: 870px;
-    width: 100%;
+    width: 1689px;
     position: absolute;
 }
 
@@ -258,6 +258,9 @@ h4 {
     color: whitesmoke;
 }
 
+.contact-me-box {
+    height: 800px;
+}
 @media (max-width: 700px) {
     .name > h1 {
         font-size: 7rem;
@@ -406,20 +409,28 @@ h4 {
 
 @media (max-width: 500px) {
     .name > h1 {
-        font-size: 4.7rem;
+        font-size: 4rem;
         width: 100%;
     }
 
-    .abt-me-container h2 {
-        font-size: 4.3rem;
+    .contact-me-box {
+        height: 980px;
+    }
+
+    .contact-me-box > .contact-me-container > h4 {
+        font-size: 1.2rem;
+    }
+    .abt-me-container > .abt-me-box > h2 {
+       font-size: 3.2rem;
+    }
+
+    .abt-me-container .arrow {
+        width: 1.3rem;
+        height: 1.3rem;
     }
 
     .hobbies-container {
-        margin-top: 400px;
-    }
-
-    .footer-container {
-        margin-top: 180px;
+        margin-top: 600px;
     }
 }
 
