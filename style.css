@@ -408,7 +408,7 @@ h4 {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .name > h1 {
         font-size: 3.7rem;
         width: 100%;
@@ -420,13 +420,14 @@ h4 {
 
     .clover {
         font-size: 2rem;
+        margin-top: 15px;
     }
 
     .contact-me-box > .contact-me-container > h4 {
         font-size: 1.2rem;
     }
     .abt-me-container > .abt-me-box > h2 {
-       font-size: 3.2rem;
+       font-size: 3rem;
     }
 
     .abt-me-container .arrow {
@@ -435,7 +436,7 @@ h4 {
     }
 
     .hobbies-container {
-        margin-top: 520px;
+        margin-top: 450px;
     }
 }
 
