@@ -429,7 +429,7 @@ h4 {
     .abt-me-container > .abt-me-box > h2 {
        font-size: 3rem;
        border: 2px solid black;
-       width: 300px;
+       width: 100%;
     }
 
     .abt-me-container .arrow {
@@ -439,6 +439,10 @@ h4 {
 
     .hobbies-container {
         margin-top: 400px;
+    }
+
+    .abt-me-box {
+        width: 60%; 
     }
 }
 
