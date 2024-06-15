@@ -408,7 +408,7 @@ h4 {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .name > h1 {
         font-size: 3.7rem;
         width: 100%;
@@ -428,6 +428,7 @@ h4 {
     }
     .abt-me-container > .abt-me-box > h2 {
        font-size: 3rem;
+       border: 2px solid black;
     }
 
     .abt-me-container .arrow {
@@ -436,7 +437,7 @@ h4 {
     }
 
     .hobbies-container {
-        margin-top: 450px;
+        margin-top: 400px;
     }
 }
 
