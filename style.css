@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     height: 870px;
-    width: 1689px;
+    width: 100%;
     position: absolute;
 }
 
@@ -155,7 +155,8 @@ p {
 .clover {
     width: 100%; 
     text-align: center;
-    margin-top: -10px; 
+    margin-top: -10px;
+    font-size: 3rem;
 }
 
 .arrow {
@@ -409,12 +410,16 @@ h4 {
 
 @media (max-width: 500px) {
     .name > h1 {
-        font-size: 4rem;
+        font-size: 3.7rem;
         width: 100%;
     }
 
     .contact-me-box {
         height: 980px;
+    }
+
+    .clover {
+        font-size: 2rem;
     }
 
     .contact-me-box > .contact-me-container > h4 {
@@ -425,12 +430,12 @@ h4 {
     }
 
     .abt-me-container .arrow {
-        width: 1.3rem;
-        height: 1.3rem;
+        width: 1.2rem;
+        height: 1.2rem;
     }
 
     .hobbies-container {
-        margin-top: 600px;
+        margin-top: 520px;
     }
 }
 
