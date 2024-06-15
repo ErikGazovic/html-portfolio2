@@ -1,0 +1,407 @@
+body {
+    background-color: rgb(254, 207, 214);
+}
+
+.head-container {
+    width: 100.9%;
+    margin: -10px;
+    height: 870px;
+    
+}
+
+.first-background > img {
+    display: flex;
+    justify-content: center;
+    height: 870px;
+    width: 100%;
+    position: absolute;
+}
+
+.head-text {
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+}
+
+.abt-me-container {
+    width: auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0px -8px 0px -10px;
+    background: rgb(26,25,39);
+    background: linear-gradient(180deg, rgba(26,25,39,1) 7%, rgba(36,32,51,0.82) 33%, rgba(228,107,111,0.84) 68%, rgba(254,207,214,1) 100%);
+}
+
+.abt-me-container > div > img {
+    height: 220px; 
+    width: 220px; 
+    border-radius: 50%;
+    margin-top: 70px; 
+}
+
+.abt-me-box {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    padding: 60px 0px 60px 0px; 
+}
+
+.black-line {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+
+.hobbies-container {
+    background-color: rgb(254, 207, 214);
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px -8px -10px -10px;
+}
+
+.footer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+}
+
+.contact-me-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.button {
+    color: whitesmoke; 
+    border: 4px solid rgba(228,107,111,0.84);
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+}
+  
+  .button:hover {
+    background-color: rgb(192, 154, 161);
+    color: whitesmoke;
+  }
+
+
+  .name {
+    font-size: 4rem;
+    position: relative;
+    width: 80%;
+    margin-top: 80px;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifc;
+}
+
+.cringe-text > h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifc;
+    padding: 60px 0px 40px 0px;
+}
+
+.cringe-text {
+    font-size: 2rem;
+    position: relative;
+    text-align: end;
+    width: 80%;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+p {
+    width: 90%; 
+    text-align: center; 
+    font-size: 1.4rem; 
+    letter-spacing: 2px; 
+    font-family: 'Roboto Slab', serif;
+}
+
+.clover {
+    width: 100%; 
+    text-align: center;
+    margin-top: -10px; 
+}
+
+.arrow {
+    border: solid whitesmoke;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.black-arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+
+
+.hobby-image {
+    box-shadow: 5px 5px 20px black;
+    float: right;
+}
+
+h3 {
+    color: whitesmoke; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 3rem; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifc; 
+    padding: -20px 0px -20px 0px;
+}
+
+.abt-me-container > .abt-me-box > h2 {
+    color: whitesmoke; 
+    width: 100%; 
+    text-align: center; 
+    font-size: 4rem; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifc; 
+    padding: -20px 0px -20px 0px;
+}
+
+.hobbies {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.hobby {
+    width: 80%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.hobby-text {
+    font-size: 1.4rem; 
+    letter-spacing: 2px; 
+    font-family: 'Roboto Slab', serif;;
+}
+
+h5 {
+    color: whitesmoke;
+    font-size: 1.7rem;
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none; 
+    margin-top: -20px; 
+    margin-left: -40px; 
+    line-height: 30px; 
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
+
+h4 {
+    width: 100%; 
+    text-align: center; 
+    font-size: 1.7rem;
+}
+
+.footer-container p {
+    font-size: 1.4rem;
+    color: whitesmoke;
+}
+
+@media (max-width: 700px) {
+    .name > h1 {
+        font-size: 7rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 0.5fr 1fr 1fr;
+        grid-template-rows: 250px 250px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hobbies-container > .hobbies > .hobby {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .hobbies-container > .hobbies > .hobby > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hobbies-container > .hobbies > .hobby > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hobbies-container > .hobbies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .head-container > .hobbies > .black-line {
+        width: 100%;
+    } 
+}
+
+@media (max-width: 1400px) {
+    .hobbies-container > .hobbies > div > img {
+        height: 250px;
+    }
+    .hobbies-container {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .hobbies-container {
+        margin-top: 200px;
+    }
+
+    
+    .footer-container ul {
+        font-size: smaller;
+    }
+
+    .footer-container .container p {
+        font-size: 1.3rem;
+    }
+
+    .footer-container .container h5 {
+        font-size: 1.2rem;
+    }
+}
+    
+@media (max-width: 850px) {
+    .name > h1 {
+        text-align: center;
+    }
+    h1 {
+        font-size: 7rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .abt-me-container > .abt-me-box > p {
+        font-size: 1.2rem;
+    }  
+}
+
+@media (max-width: 800px) {
+    .hobbies-container {
+        margin-top: 200px;
+    }
+
+    .hobbies-container .arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .contact-me-container .arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .contact-me-container h3 {
+        font-size: 2.6rem;
+    }
+
+    .hobbies-container h3 {
+        font-size: 2.6rem;
+    }
+
+    .contact-me-container h4 {
+        font-size: 1.3rem;
+    }
+
+    .contact-me-container p {
+        font-size: 1.2rem;
+    }
+
+    .contact-me-container .button {
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .name > h1 {
+        font-size: 6rem;
+        width: 100%;
+    }
+    .hobbies-container {
+        margin-top: 250px;
+    }
+
+    .footer-container .col-2 {
+        width: 95px;
+    }
+
+    .footer-container .empty {
+        width: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .name > h1 {
+        font-size: 5rem;
+        width: 100%;
+    }
+}
+
+
