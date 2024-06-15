@@ -391,14 +391,6 @@ h4 {
     .hobbies-container {
         margin-top: 250px;
     }
-
-    .footer-container .col-2 {
-        width: 95px;
-    }
-
-    .footer-container .empty {
-        width: 10px;
-    }
 }
 
 @media (max-width: 580px) {
